@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+
+        @apply text-3xl bg-green-300;
+
+    }
+    h2{
+
+        @apply text-xl  bg-yellow-300;
+    }
+}
+
+@layer components{
+    /* // create common class if you want to use all over places */
+    .btn-blue{
+        @apply bg-blue-500 hover:bg-red-300;
+    }
+}
